@@ -97,11 +97,9 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
      * 2019 - [The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data](https://www.amazon.it/dp/B07QT9QR41/ref=cm_sw_r_tw_dp_U_x_WHRSDbW3V5M6P)
 
 * Video
-
     * [10+ Deploys Per Day: Dev and Ops Cooperation at Flickr](https://www.youtube.com/watch?v=LdOe18KhtT4)
     * [Stop Hiring DevOps Experts and Start Growing Them](https://www.youtube.com/watch?v=6m9nCtyn6kE)
     * [The Short History of DevOps](https://www.youtube.com/watch?v=o7-IuYS0iSE)
-
 
 * Exercises
     * [Code School Try Git](https://try.github.io/levels/1/challenges/1)
@@ -188,38 +186,42 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 
 ### 7) MLOps
 
-https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page
+* [What is MLOps](https://www.xenonstack.com/blog/mlops/)
+* [MLOps Overview](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
+* [Feature Store (1)](https://towardsdatascience.com/mlops-with-a-feature-store-816cfa5966e9)
+* [Feature Store (2)](https://medium.com/data-for-ai/what-is-a-feature-store-for-ml-29b62580af5d)
+* [Feature Store (3)](https://towardsdatascience.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-data-science-3f9156f7ab4)
+* [Version Control System for Machine Learning](https://dvc.org/)
+* [SageMaker MLOps](https://aws.amazon.com/it/sagemaker/mlops/)
+* [Workshop: MLOps with SageMaker](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)
+* [Extra: Awesome MLOps](https://github.com/visenger/awesome-mlops)
+* [Video: DevOps for Machine Learning Part 1](https://www.youtube.com/watch?v=YAqTt4DYIbw)
+* [Video: DevOps for Machine Learning Part 2](https://www.youtube.com/watch?v=mZUdYu345dg)
 
-https://github.com/visenger/awesome-mlops
+### 8) NLP
 
-https://github.com/awslabs/amazon-sagemaker-mlops-workshop
+* [Introduction to NLP](https://github.com/fastai/course-nlp)
+* [Reading Comprehension](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2718305.pdf)
+* [Question Answering on the SQuAD Dataset](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2761899.pdf)
+* [BERT Explained](https://towardsml.wordpress.com/2019/09/17/bert-explained-a-complete-guide-with-theory-and-tutorial/)
+* [Transformers](https://huggingface.co/course/chapter1/1)
+* [SpaCy](https://course.spacy.io/en/)
+* [Learning to Rank](https://www.amazon.it/Learning-Rank-Information-Retrieval-Tie-yan/dp/3642142664/)
+* [Unsupervised Translation of Programming Languages](http://www.iitp.ac.in/~ai-nlp-ml/course/dnlp/cep_iitpatna_mt_2020.pdf)
 
-https://towardsdatascience.com/mlops-with-a-feature-store-816cfa5966e9
-https://dvc.org/
-https://github.com/awslabs/amazon-sagemaker-mlops-workshop
+### 9) Reinforcement Learning
 
-https://www.youtube.com/watch?v=YAqTt4DYIbw
+* [Reinforcement Learning Introduction](https://www.udacity.com/course/reinforcement-learning--ud600)
+* [Video: Getting started with OpenAI Gym](https://www.youtube.com/watch?v=8MC3y7ASoPs)
+* [Video: Q-Learning](https://www.youtube.com/watch?v=qhRNvCVVJaA)
+* [Video: Q Learning Intro/Table - Reinforcement Learning p.1](https://www.youtube.com/watch?v=yMk_XtIEzH8)
+* [Q Learning Algorithm and Agent - Reinforcement Learning p.2](https://www.youtube.com/watch?v=Gq1Azv_B4-4)
+* [Q-Learning Agent Analysis - Reinforcement Learning p.3](https://www.youtube.com/watch?v=CBTbifYx6a8)
+* [Creating A Reinforcement Learning (RL) Environment - Reinforcement Learning p.4](https://www.youtube.com/watch?v=G92TF4xYQcU)
+* [Deep Q Learning w/ DQN - Reinforcement Learning p.5](https://www.youtube.com/watch?v=t3fbETsIBCY)
+* [Training & Testing Deep reinforcement learning (DQN) Agent - Reinforcement Learning p.6](https://www.youtube.com/watch?v=qfovbG84EBg)
+* [Deep Reinforcement Learning Models: Tips & Tricks for Writing Reward Functions](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0)
+* [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/)
+* [SageMaker DeepRacer](https://aws.amazon.com/it/deepracer/)
 
-
-https://www.xenonstack.com/blog/mlops/
-https://medium.com/data-for-ai/what-is-a-feature-store-for-ml-29b62580af5d
-https://featurestore.org/
-https://towardsdatascience.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-data-science-3f9156f7ab4
-
-
-Reinforcement Learning
-
- Udacity Reinforcement Learning by Georgia Institute of Technology
- Getting started with OpenAI gym
- Q-Learning
- Q Learning Intro/Table - Reinforcement Learning p.1
- Q Learning Algorithm and Agent - Reinforcement Learning p.2
- Q-Learning Agent Analysis - Reinforcement Learning p.3
- Creating A Reinforcement Learning (RL) Environment - Reinforcement Learning p.4
- Deep Q Learning w/ DQN - Reinforcement Learning p.5
- Training & Testing Deep reinforcement learning (DQN) Agent - Reinforcement Learning p.6 1
- Deep Reinforcement Learning Models: Tips & Tricks for Writing Reward Functions 1
- https://aws.amazon.com/it/deepracer/
-
-NLP
-
+ 
