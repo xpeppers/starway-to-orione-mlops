@@ -61,6 +61,11 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 	* [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
 	* [Dive into Deep Learning](https://d2l.ai/)
 
+* Math Concepts
+  * [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+  * [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+  * [Convolutions](https://www.youtube.com/watch?v=8rrHTtUzyZA&list=PLZHQObOWTQDMp_VZelDYjka8tnXNpXhzJ&index=1)
+
 * Extra (Optional)
 	* [Virgilio](https://github.com/virgili0/Virgilio)
 	* [Dask](https://ml.dask.org/)
