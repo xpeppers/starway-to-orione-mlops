@@ -2,19 +2,9 @@
 
 DoAI is the **D**evelopment **O**peration and **A**rtificial **I**ntelligence
 
-## Machine Learning
-
-This is the learning path every new cloud data engineer has to follow when joining the XPeppers Cloud team.
+This is the learning path every new Cloud Data Architect has to follow when joining the XPeppers Cloud team.
 This path reflects our team's culture and values, which have their roots in the [agile values and principles](http://agilemanifesto.org/).
 
-Please feel free to fork and contribute, add materials, fix the existing ones and propose new stuff.
-
-During all the plan read [The Phoenix Project](https://books.google.it/books/about/The_Phoenix_Project.html?id=qaRODgAAQBAJ).
-
-
-## Main learning path
-
-### 1) Methodology
 * Flat Organizations:
    * [The Flat Way](https://link.medium.com/E4kjMXajO3) ```#onboarding```
    * [Teal Is The New Black: Self-management and the future of work](https://management30.com/blog/teal-organization-self-management-future-of-work/)
@@ -39,171 +29,164 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
     * What is design for?
       * in other words, how would you reply to the following statement: _"I just need to understand what to do (analysis) and then do it (coding). Everything else does not matter!"_
 
-### 2) Machine Learning Classic and base concepts
-* Learn the basics of Python language
-	* [Python course by Analytics Vidhya](https://courses.analyticsvidhya.com/courses/introduction-to-data-science)
-	* [Python for DevOps](https://www.amazon.it/dp/B082P97LDW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-	* [Python Regular Expressions](https://developers.google.com/edu/python/regular-expressions)
-	* [RE Cheat Sheet](https://www.debuggex.com/cheatsheet/regex/python)
-* Learn Scientific libraries in Python
-	* [Python Numpy Tutorial](https://cs231n.github.io/python-numpy-tutorial/)
-	* [Scipy](http://docs.scipy.org/doc/scipy/reference/tutorial/)
-	* [ipython notebook](https://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
-	* [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+# Table of Contents
 
-	* [Assignment](https://nbviewer.jupyter.org/github/cs109/2014/blob/master/homework/HW1.ipynb)
-* Data Visualization
-	* [Introduction to Data Visualization in Python](https://towardsdatascience.com/introduction-to-data-visualization-in-python-89a54c97fbed)
-* Learn Scikit-learn
-	* [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/)
-	* [Scikit-learn Crash Course](https://ajh1143.github.io/ScikitLrn/)
-* Machine Learning Crash Course
-	* [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
-	* [Dive into Deep Learning](https://d2l.ai/)
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#programming">Methodology</a></li>
+    <li><a href="#mathematics--statistics">Maths & Statistics</a></li>
+    <li><a href="#machine-learning">Toolboxes</a></li>
+    <li><a href="#evaluation-metrics">Machine Learning</a></li>
+    <li><a href="#deep-learning">Cloud Operation and DevOps</a></li>
+    <li><a href="#ml-applications">Machine Learning Operations (MLOps)</a></li>
+    <li><a href="#nlp--nlu">NLP & NLU</a></li>
+    <li><a href="#speech-recognition">Recommendation System</a></li>
+    <li><a href="#model-deployment">Reinforcement Learning</a></li>
+  </ol>
+</details>
 
-* Math Concepts
-  * [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-  * [Essence of calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
-  * [Convolutions](https://www.youtube.com/watch?v=8rrHTtUzyZA&list=PLZHQObOWTQDMp_VZelDYjka8tnXNpXhzJ&index=1)
+Please feel free to fork and contribute, add materials, fix the existing ones and propose new stuff.
 
-* Extra (Optional)
-	* [Virgilio](https://github.com/virgili0/Virgilio)
-	* [Dask](https://ml.dask.org/)
-	* [Apache Spark](https://spark.apache.org/)
-	* [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
-	* [Workflow of a Machine Learning project](https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94)
-	* [Standardization in case of real-time predictions](https://www.element61.be/en/resource/standardization-case-real-time-predictions)
-	* [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
-	* [Anaconda](https://www.anaconda.com)
-	* [Zeppelin](https://zeppelin.apache.org/)
+During all the plan read [The Phoenix Project](https://books.google.it/books/about/The_Phoenix_Project.html?id=qaRODgAAQBAJ).
 
-### 3) DevOps
 
-* Articles and presentations:
+## Programming
+* [Basic Python](https://www.learnpython.org/)
+* [Object-oriented Programming](https://realpython.com/python3-object-oriented-programming/)
+* [Python course by Analytics Vidhya](https://courses.analyticsvidhya.com/courses/introduction-to-data-science)
+* [Python Regular Expressions](https://developers.google.com/edu/python/regular-expressions)
+* [RE Cheat Sheet](https://www.debuggex.com/cheatsheet/regex/python)
+* [Git](https://learngitbranching.js.org/?locale=it_IT)
+* [Shell Script](https://dagshub.com/blog/effective-linux-bash-data-scientists/)
+* Competitive: [Starway to Orione Dev](https://github.com/xpeppers/starway-to-orione)
 
-    * [The Incredible True Story of How DevOps Got Its Name](https://blog.newrelic.com/engineering/devops-name/)
-    * [Slides of 10+ Deploys Per Day: Dev and Ops Cooperation at Flickr](https://www.slideshare.net/jallspaw/10-deploys-per-day-dev-and-ops-cooperation-at-flickr)
-    * [What is this devops thing anyway/](http://www.jedi.be/blog/2010/02/12/what-is-this-devops-thing-anyway/)
-    * [DevOps / Infrastructure as Code](https://docs.google.com/presentation/d/1Xkr2ioe6cXD9jFM9ETRCm4e-NPoLi_54n_u1yCgHAA4/edit#slide=id.g9b7ec55c6_0_0)
-    * [10 practices for effective devops](http://www.drdobbs.com/architecture-and-design/top-10-practices-for-effective-devops/240149363)
-    * [Deployment is just a part of dev/ops cooperation, not the whole thing](http://www.kitchensoap.com/2009/12/12/devops-cooperation-doesnt-just-happen-with-deployment/)
-    * [There’s No Such Thing as a “Devops Team”](http://continuousdelivery.com/2012/10/theres-no-such-thing-as-a-devops-team/)
-    * [Turning student groups into effective teams](https://www.researchgate.net/publication/242350622_Turning_student_groups_into_effective_teams)
-    * 2019 - [Chaos Engineering — Part 1](https://medium.com/@adhorn/chaos-engineering-ab0cc9fbd12a)  
-        - [Chaos Monkey alternatives](https://www.gremlin.com/chaos-monkey/chaos-monkey-alternatives/docker/)
-    * 2018 - [The Agile Fluency Model](https://martinfowler.com/articles/agileFluency.html)
-    * 2018 - [The Andon Cord](https://blueboard.io/resources/amazon-andon-cord/)
-    * 2015 - [Factorish and The Twelve-Fakter App](https://tech.paulcz.net/2015/01/factorish_and_the_12_fakter_app/)
+## Maths & Statistics
+* [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+* [Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
+* [Descriptive Statistics](https://conjointly.com/kb/descriptive-statistics/)
+* [Data Distributions](https://towardsdatascience.com/7-statistical-distributions-that-every-data-scientist-should-know-with-intuitive-explanations-bf967db81f0b)
+* [Convolutions](https://www.youtube.com/watch?v=8rrHTtUzyZA&list=PLZHQObOWTQDMp_VZelDYjka8tnXNpXhzJ&index=1)
+* [Exploratory Data Analysis](https://medium.com/data-folks-indonesia/10-things-to-do-when-conducting-your-exploratory-data-analysis-eda-7e3b2dfbf812)
+* [Regression](https://www.listendata.com/2018/03/regression-analysis.html)
 
-* Book:
-    * [Pomodoro technique](https://francescocirillo.com/products/the-pomodoro-technique)
-    * Chapter 2 [Implementing Lean Software Development](https://www.amazon.it/Implementing-Lean-Software-Development-Addison-Wesley-ebook/dp/B00HNB3VQE)
-    * Chaters 1-3 of [Extreme Programming] Explained(https://www.amazon.it/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
-     * 2019 - [The Unicorn Project: A Novel about Developers, Digital Disruption, and Thriving in the Age of Data](https://www.amazon.it/dp/B07QT9QR41/ref=cm_sw_r_tw_dp_U_x_WHRSDbW3V5M6P)
+## Toolboxes
+* Evaluating and Exploring data in Python
+  * [Jupyter](https://nbviewer.org/github/jrjohansson/scientific-python-lectures/tree/master/)
+  * [Anaconda](https://www.anaconda.com) ```#optional```
+  * [Zeppelin](https://zeppelin.apache.org/) ```#optional```
+  * [Notebook Alternative](https://pbpython.com/notebook-alternative.html) ```#optional```
+* Scientific libraries in Python
+  * [Numpy](https://cs231n.github.io/python-numpy-tutorial/)
+  * [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+  * [Scipy](http://docs.scipy.org/doc/scipy/reference/tutorial/)
+  * [Scikit-learn](https://www.youtube.com/watch?v=0B5eIE_1vpU)
+  * [Matplotlib](https://www.youtube.com/watch?v=6rKe2IEIu8c)
+  * [Seaborn](https://www.kaggle.com/code/mukeshchoudhary/seaborn-crash-course-a-complete-course-on-seaborn/notebook)
+  * [Dask](https://ml.dask.org/) ```#optional```
+  * [Apache Spark](https://spark.apache.org/) ```#optional```
+  * [Spark & Hadoop Developer](https://gmucciolo.it/spark-and-hadoop-developer/) ```#optional```
+  * [Statsmodels](https://www.statsmodels.org/stable/index.html) ```#optional```
+  
 
-* Video
-    * [10+ Deploys Per Day: Dev and Ops Cooperation at Flickr](https://www.youtube.com/watch?v=LdOe18KhtT4)
-    * [Stop Hiring DevOps Experts and Start Growing Them](https://www.youtube.com/watch?v=6m9nCtyn6kE)
-    * [The Short History of DevOps](https://www.youtube.com/watch?v=o7-IuYS0iSE)
+## Machine Learning
+* [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
+* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/dp/B07XGF2G87/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+* Blog & Articles:
+  * [Workflow of a Machine Learning project](https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94)
+  * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
+  * [Introduction to Data Visualization in Python](https://towardsdatascience.com/introduction-to-data-visualization-in-python-89a54c97fbed)
+  * [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/)
+* Algorithms
+  * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm), [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/)
+  * [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/), [Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
+  * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
+  * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761), [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
+  * [SageMaker Built-in](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
+  * [SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)
+* Evaluation Metrics
+  * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score), [F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
+  * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/), [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score)
+  * [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score), [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank)
+  * [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9), [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
+* [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/)
+* Extra:
+  * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
+  * [Standardization in case of real-time predictions](https://www.element61.be/en/resource/standardization-case-real-time-predictions)
 
-* Exercises
-    * [Code School Try Git](https://try.github.io/levels/1/challenges/1)
-    * [Code School Try Ruby](https://www.codeschool.com/courses/try-ruby)
-    * [Chef essentials](https://learn.chef.io/#/)
+## Deep Learning
+* [Dive into Deep Learning](https://d2l.ai/)
+* [Practical Deep Learning for Coders](https://course.fast.ai/)
+* [Activation Functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
+* [Linear Layer](https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa)
+* [CNN (Convolutional Neural Networks)](https://cs231n.github.io/)
+* [RNN (Recurrent Neural Networks)](https://builtin.com/data-science/recurrent-neural-networks-and-lstm)
+* [Optimization](https://d2l.ai/chapter_optimization/)
+* [Loss Functions / Objective Functions](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23)
+* [Dropout](https://leonardoaraujosantos.gitbook.io/artificial-inteligence/machine_learning/deep_learning/dropout_layer)
+* [Batchnorm](https://www.baeldung.com/cs/batch-normalization-cnn)
+* [Learning Rate Scheduler](https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1)
+* Frameworks:
+  * [MXNet](https://mxnet.apache.org/)
+  * [PyTorch](https://pytorch.org/)
+  * [Tensorflow](https://www.tensorflow.org/)
+  * [Keras](https://keras.io)
 
-### 4) Amazon Web Services
-* [AWS Technical Essentials](https://aws.amazon.com/it/training/course-descriptions/essentials/)
-* [Machine Learning on AWS](https://aws.amazon.com/it/training/learning-paths/machine-learning/data-scientist/)
-* [Data Analitics](https://aws.amazon.com/it/training/path-data-analytics)
-* [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction.html)
-* Tools:
+## Cloud Operation and DevOps
+* [Machine Learning Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html)
+* [Book: Data Science on AWS](https://www.amazon.it/dp/B0921MXC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+* AWS Machine Learning Stack
+  * [ML Frameworks & Infrastructure](https://aws.amazon.com/it/machine-learning/infrastructure/)
+  * [Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
+  * [AI Services](https://aws.amazon.com/machine-learning/ai-services/?nc1=h_ls)
+* More AWS Services:
+  * [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction.html)
+  * [CI/CD CodePipeline](https://aws.amazon.com/codepipeline/getting-started/?nc=sn&loc=4)
+  * [Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/sample-train-model.html)
+  * [Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html)
+  * [Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)
+  * [AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
+* Utils:
+  * [Python for DevOps](https://www.amazon.it/dp/B082P97LDW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
   * [Boto3](https://github.com/boto/boto3)
-
-### 5) Continuous Delivery
-
-* Articles and presentations:
-    * [Introduzione continuous Integration](http://www.martinfowler.com/articles/continuousIntegration.html)
-    * [Introduzione continuous Delivery](http://www.martinfowler.com/bliki/ContinuousDelivery.html)
-    * [AWS Code Deploy](http://docs.aws.amazon.com/codedeploy/latest/userguide/welcome.html)
-
-* Videos:
-    * [Continuous Delivery on Java Projects](https://www.youtube.com/watch?v=Y6juAsiurO4)
-    * [Slide della presentazione](http://pt.slideshare.net/xpeppers/continuous-delivery-in-java)
-    * [Adopting Continuous Delivery](https://www.youtube.com/watch?v=ZLBhVEo1OG4)
-
-* Books:
-    * Capitoli 1-3 Continuous Delivery
-    * Capitoli 3,4,5 Implementing Lean Software Development
-
-* Exercises:
-    * [Continuous Delivery jumpstart](https://docs.google.com/presentation/d/1TONDWUBCbHsH27pi1EMsx1wfWyWQRX4f-bPZAULRHNo/edit#slide=id.gb3550ec09_2_0)
-
-### 6) CI/CD
-
-* Articles and presentations:
-  * [CodePipeline](https://aws.amazon.com/codepipeline/getting-started/?nc=sn&loc=4)
+  * [CloudFormation]()
   * [SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
+  * [Data Science SDK](https://docs.aws.amazon.com/it_it/step-functions/latest/dg/concepts-python-sdk.html)
+  * [Scala Data Quality](https://github.com/awslabs/deequ) | [Python Data Quality](https://github.com/awslabs/python-deequ)
+  * [Terraform](https://www.amazon.it/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906/) ```#optional```
+  * [Troposhpere](https://github.com/cloudtools/troposphere) ```#optional```
+  * [Goformation](https://github.com/awslabs/goformation) ```#optional```
+  * [Aws Data Wrangle](https://github.com/awslabs/aws-data-wrangler) ```#optional```
+* Training and Certification
+  * [AWS Technical Essentials](https://aws.amazon.com/it/training/course-descriptions/essentials/)
+  * [Machine Learning on AWS](https://aws.amazon.com/it/training/learning-paths/machine-learning/data-scientist/)
+  * [Data Analytics](https://aws.amazon.com/it/training/path-data-analytics)
+* Competitive: [Starway to Orione Cloud](https://github.com/xpeppers/starway-to-orione-cloud)
 
-## Extra references
-
-### AWS
-* [AWS Overview](https://d36cz9buwru1tt.cloudfront.net/AWS_Overview.pdf)
-* [Managing Your AWS Infrastructure at Scale](https://d0.awsstatic.com/whitepapers/managing-your-aws-infrastructure-at-scale.pdf)
-* [Amazon Web Services in Actions](http://www.amazon.com/dp/1617292885/ref=rdr_ext_tmb) \- Capitoli 4-5
-* [Introduction to DevOps on AWS](https://d0.awsstatic.com/whitepapers/AWS_DevOps.pdf)
-* [DevOps at Amazon](https://www.youtube.com/watch?v=esEFaY0FDKc)
-* [CodeDeploy](https://www.youtube.com/watch?v=A4NSyUbAEkw)
-* [AWS Cloudformation User Guide](http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-ug.pdf)
-* [AWS CLoudformation BestPractices](https://www.youtube.com/watch?v=fVMlxJJNmyA)
-* [Deep-Dive in to Blue/Green Deployment](https://www.youtube.com/watch?v=aX54mhZbN58)
-* [AWS Elastic Beanstalk](http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/awseb-dg.pdf)
-* [Scaling Your Application with EB](https://www.youtube.com/watch?v=nkj0GXgaRv8)
-* [AWS ECS](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-dg.pdf)
-* [ECS Deployment](https://www.youtube.com/watch?v=o4w8opVCI-Q&list=PLhr1KZpdzukeH9VMPbNHMCXl_NrVc1JGe&index=6)
-* [Docker on AWS](https://d0.awsstatic.com/whitepapers/docker-on-aws.pdf)
-* [Next-Generation Application with ECS](https://www.youtube.com/watch?v=xIc3WT6kAVw)
-
-### Web
-* [DevOps bookmarks Discover tools and frameworks in the DevOps landscape](http://www.devopsbookmarks.com/)
-* [High Scalability](http://highscalability.com/)
-* [Dev2Ops](http://dev2ops.org/)
-* [CodeAsCraft](https://codeascraft.com/) (blog dei devops di Etsy)
-* [Netflix Techblog](http://techblog.netflix.com/)
-* [Aphyr](https://aphyr.com/)
-
-
-### Podcast
-* [Food Fight](http://foodfightshow.org/)
-* [The Ship Show](http://theshipshow.com/)
-* [DevOps Cafe](http://devopscafe.org/)
-* [SE Radio Episode 221: Jez Humble on Continuous Delivery](http://www.se-radio.net/2015/02/episode-221-jez-humble-on-continuous-delivery/)
-* [Arrested DevOps](https://sysadmincasts.com/)
-
-
-### Books
-
-* [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win](http://www.amazon.it/The-Phoenix-Project-Helping-Business/dp/0988262592)
-* [Web Operations Keeping the Data On Time](http://www.amazon.com/Web-Operations-Keeping-Data-Time-ebook/dp/B0043M4Z34)
-* [Release It!](https://pragprog.com/book/mnee/release-it)
-* [Building Microservices](http://shop.oreilly.com/product/0636920033158.do)
-* [aws lambda in action](https://manning-content.s3.amazonaws.com/download/2/21876e3-e4f1-4e3b-a842-ed68253b156d/Poccia_AWSLambda_MEAP_V01_ch1.pdf)
-* [Ansible Up And Running](http://shop.oreilly.com/product/0636920065500.do)
-
-### 7) MLOps
+## Machine Learning Operations (MLOps)
 
 * [What is MLOps](https://www.xenonstack.com/blog/mlops/)
 * [MLOps Overview](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
-* [Feature Store (1)](https://towardsdatascience.com/mlops-with-a-feature-store-816cfa5966e9)
-* [Feature Store (2)](https://medium.com/data-for-ai/what-is-a-feature-store-for-ml-29b62580af5d)
-* [Feature Store (3)](https://towardsdatascience.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-data-science-3f9156f7ab4)
+* Feature Store:
+  * [What is a Feature Store](https://medium.com/data-for-ai/what-is-a-feature-store-for-ml-29b62580af5d)
+  * [MLOps with a Feature Store](https://towardsdatascience.com/mlops-with-a-feature-store-816cfa5966e9)
+  * [Why Feature Stores They Critical for Scaling Data Science](https://towardsdatascience.com/what-are-feature-stores-and-why-are-they-critical-for-scaling-data-science-3f9156f7ab4)
 * [Version Control System for Machine Learning](https://dvc.org/)
 * [SageMaker MLOps](https://aws.amazon.com/it/sagemaker/mlops/)
-* [Workshop: MLOps with SageMaker](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)
-* [Extra: Awesome MLOps](https://github.com/visenger/awesome-mlops)
-* [Video: DevOps for Machine Learning Part 1](https://www.youtube.com/watch?v=YAqTt4DYIbw)
-* [Video: DevOps for Machine Learning Part 2](https://www.youtube.com/watch?v=mZUdYu345dg)
+* DevOps for Machine Learning
+  * [Automate MLOps with SageMaker Projects](https://www.youtube.com/watch?v=3_cHnk9VSfQ)
+  * [Create ML workflows with Amazon SageMaker Pipelines](https://www.youtube.com/watch?v=W7uabCTfLrg)
+  * [A/B testing ML with Amazon SageMaker](https://www.youtube.com/watch?v=5WysxAYDH1k)
+* Workshop:
+  * [MLOps with SageMaker](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)
+* Competitive: [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 
-### 8) NLP
+# Machine Learning Applications
+
+A more specific section about some Machine Learning Fields.
+
+## NLP & NLU
 
 * [Introduction to NLP](https://github.com/fastai/course-nlp)
 * [Reading Comprehension](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2718305.pdf)
@@ -212,21 +195,29 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 * [Transformers](https://huggingface.co/course/chapter1/1)
 * [SpaCy](https://course.spacy.io/en/)
 * [Learning to Rank](https://www.amazon.it/Learning-Rank-Information-Retrieval-Tie-yan/dp/3642142664/)
+* [Natural Language Processing with Python](https://www.nltk.org/book/)
 * [Unsupervised Translation of Programming Languages](http://www.iitp.ac.in/~ai-nlp-ml/course/dnlp/cep_iitpatna_mt_2020.pdf)
+* [Perplexity](https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/) and [BLEU Score](https://machinelearningmastery.com/calculate-bleu-score-for-text-python/) metrics
 
-### 9) Reinforcement Learning
+## Recommendation System
+* [What Are Recommender Systems](https://builtin.com/data-science/recommender-systems)
+* [Matrix Factorization](https://medium.com/@paritosh_30025/recommendation-using-matrix-factorization-5223a8ee1f4) 
+* [How does Netflix recommend movies using Matrix Factorization](https://www.youtube.com/watch?v=ZspR5PZemcs&t=653s)
+* [Collaborative filtering](https://www.youtube.com/watch?v=h9gpufJFF-0)
+
+## Reinforcement Learning
 
 * [Reinforcement Learning Introduction](https://www.udacity.com/course/reinforcement-learning--ud600)
-* [Video: Getting started with OpenAI Gym](https://www.youtube.com/watch?v=8MC3y7ASoPs)
-* [Video: Q-Learning](https://www.youtube.com/watch?v=qhRNvCVVJaA)
-* [Video: Q Learning Intro/Table - Reinforcement Learning p.1](https://www.youtube.com/watch?v=yMk_XtIEzH8)
-* [Q Learning Algorithm and Agent - Reinforcement Learning p.2](https://www.youtube.com/watch?v=Gq1Azv_B4-4)
-* [Q-Learning Agent Analysis - Reinforcement Learning p.3](https://www.youtube.com/watch?v=CBTbifYx6a8)
-* [Creating A Reinforcement Learning (RL) Environment - Reinforcement Learning p.4](https://www.youtube.com/watch?v=G92TF4xYQcU)
-* [Deep Q Learning w/ DQN - Reinforcement Learning p.5](https://www.youtube.com/watch?v=t3fbETsIBCY)
-* [Training & Testing Deep reinforcement learning (DQN) Agent - Reinforcement Learning p.6](https://www.youtube.com/watch?v=qfovbG84EBg)
-* [Deep Reinforcement Learning Models: Tips & Tricks for Writing Reward Functions](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0)
-* [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/)
-* [SageMaker DeepRacer](https://aws.amazon.com/it/deepracer/)
-
- 
+* Videos:
+  * [Getting started with OpenAI Gym](https://www.youtube.com/watch?v=8MC3y7ASoPs)
+  * [Q-Learning](https://www.youtube.com/watch?v=qhRNvCVVJaA)
+  * [Q Learning Intro/Table](https://www.youtube.com/watch?v=yMk_XtIEzH8)
+  * [Q Learning Algorithm and Agent](https://www.youtube.com/watch?v=Gq1Azv_B4-4)
+  * [Q-Learning Agent Analysis](https://www.youtube.com/watch?v=CBTbifYx6a8)
+  * [Creating A Reinforcement Learning (RL) Environment](https://www.youtube.com/watch?v=G92TF4xYQcU)
+  * [Deep Q Learning w/ DQN](https://www.youtube.com/watch?v=t3fbETsIBCY)
+  * [Training & Testing Deep reinforcement learning (DQN) Agent](https://www.youtube.com/watch?v=qfovbG84EBg)
+* Reinforcement Learning on AWS:
+  * [SageMaker DeepRacer](https://aws.amazon.com/it/deepracer/)
+  * [Deep Reinforcement Learning Models: Tips & Tricks for Writing Reward Functions](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0)
+  * [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/) ```#optional```
