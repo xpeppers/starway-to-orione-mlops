@@ -52,7 +52,7 @@ Please feel free to fork and contribute, add materials, fix the existing ones an
 During all the plan read [The Phoenix Project](https://books.google.it/books/about/The_Phoenix_Project.html?id=qaRODgAAQBAJ).
 
 ## Programming
-* [Basic Python](https://www.learnpython.org/)
+* [Basic Python](https://www.learnpython.org/){:target="_blank" rel="noopener"}
 * [Object-oriented Programming](https://realpython.com/python3-object-oriented-programming/)
 * [Python course by Analytics Vidhya](https://courses.analyticsvidhya.com/courses/introduction-to-data-science)
 * [Python Regular Expressions](https://developers.google.com/edu/python/regular-expressions)
