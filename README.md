@@ -35,14 +35,15 @@ This path reflects our team's culture and values, which have their roots in the 
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#programming">Programming</a></li>
-    <li><a href="#mathematics--statistics">Maths & Statistics</a></li>
-    <li><a href="#machine-learning">Toolboxes</a></li>
-    <li><a href="#evaluation-metrics">Machine Learning</a></li>
-    <li><a href="#deep-learning">Cloud Operation and DevOps</a></li>
-    <li><a href="#ml-applications">Machine Learning Operations (MLOps)</a></li>
+    <li><a href="#maths--statistics">Maths & Statistics</a></li>
+    <li><a href="#toolboxes">Toolboxes</a></li>
+    <li><a href="#machine-learning">Machine Learning</a></li>
+    <li><a href="#deep-learning">Deep Learning</a></li>
+    <li><a href="#cloud-operation-and-devops">Cloud Operation and DevOps</a></li> 
+    <li><a href="#machine-learning-operations-mlops">Machine Learning Operations (MLOps)</a></li>
     <li><a href="#nlp--nlu">NLP & NLU</a></li>
-    <li><a href="#speech-recognition">Recommendation System</a></li>
-    <li><a href="#model-deployment">Reinforcement Learning</a></li>
+    <li><a href="#recommendation-system">Recommendation System</a></li>
+    <li><a href="#reinforcement-learning">Reinforcement Learning</a></li>
   </ol>
 </details>
 
