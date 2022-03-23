@@ -34,7 +34,7 @@ This path reflects our team's culture and values, which have their roots in the 
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#programming">Methodology</a></li>
+    <li><a href="#programming">Programming</a></li>
     <li><a href="#mathematics--statistics">Maths & Statistics</a></li>
     <li><a href="#machine-learning">Toolboxes</a></li>
     <li><a href="#evaluation-metrics">Machine Learning</a></li>
@@ -50,7 +50,6 @@ Please feel free to fork and contribute, add materials, fix the existing ones an
 
 During all the plan read [The Phoenix Project](https://books.google.it/books/about/The_Phoenix_Project.html?id=qaRODgAAQBAJ).
 
-
 ## Programming
 * [Basic Python](https://www.learnpython.org/)
 * [Object-oriented Programming](https://realpython.com/python3-object-oriented-programming/)
@@ -61,6 +60,8 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 * [Shell Script](https://dagshub.com/blog/effective-linux-bash-data-scientists/)
 * Competitive: [Starway to Orione Dev](https://github.com/xpeppers/starway-to-orione)
 
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
+
 ## Maths & Statistics
 * [Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 * [Calculus](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
@@ -69,6 +70,8 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 * [Convolutions](https://www.youtube.com/watch?v=8rrHTtUzyZA&list=PLZHQObOWTQDMp_VZelDYjka8tnXNpXhzJ&index=1)
 * [Exploratory Data Analysis](https://medium.com/data-folks-indonesia/10-things-to-do-when-conducting-your-exploratory-data-analysis-eda-7e3b2dfbf812)
 * [Regression](https://www.listendata.com/2018/03/regression-analysis.html)
+
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Toolboxes
 * Evaluating and Exploring data in Python
@@ -87,12 +90,13 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [Apache Spark](https://spark.apache.org/) ```#optional```
   * [Spark & Hadoop Developer](https://gmucciolo.it/spark-and-hadoop-developer/) ```#optional```
   * [Statsmodels](https://www.statsmodels.org/stable/index.html) ```#optional```
-  
+
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Machine Learning
 * [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
 * [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/dp/B07XGF2G87/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) ```#optional```
 * Blog & Articles:
   * [Workflow of a Machine Learning project](https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94)
   * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
@@ -110,10 +114,12 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/), [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score)
   * [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score), [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank)
   * [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9), [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
-* [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/)
+* [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/) ```#optional```
 * Extra:
-  * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/)
-  * [Standardization in case of real-time predictions](https://www.element61.be/en/resource/standardization-case-real-time-predictions)
+  * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/) ```#optional```
+  * [Standardization in case of real-time predictions](https://www.element61.be/en/resource/standardization-case-real-time-predictions) ```#optional```
+
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Deep Learning
 * [Dive into Deep Learning](https://d2l.ai/)
@@ -131,7 +137,9 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [MXNet](https://mxnet.apache.org/)
   * [PyTorch](https://pytorch.org/)
   * [Tensorflow](https://www.tensorflow.org/)
-  * [Keras](https://keras.io)
+  * [Keras](https://keras.io) 
+
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Cloud Operation and DevOps
 * [Machine Learning Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html)
@@ -164,8 +172,9 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [Data Analytics](https://aws.amazon.com/it/training/path-data-analytics)
 * Competitive: [Starway to Orione Cloud](https://github.com/xpeppers/starway-to-orione-cloud)
 
-## Machine Learning Operations (MLOps)
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
+## Machine Learning Operations (MLOps)
 * [What is MLOps](https://www.xenonstack.com/blog/mlops/)
 * [MLOps Overview](https://cloud.google.com/solutions/machine-learning/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning#top_of_page)
 * Feature Store:
@@ -182,12 +191,11 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [MLOps with SageMaker](https://github.com/awslabs/amazon-sagemaker-mlops-workshop)
 * Competitive: [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
+
 # Machine Learning Applications
-
 A more specific section about some Machine Learning Fields.
-
 ## NLP & NLU
-
 * [Introduction to NLP](https://github.com/fastai/course-nlp)
 * [Reading Comprehension](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2718305.pdf)
 * [Question Answering on the SQuAD Dataset](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2761899.pdf)
@@ -199,14 +207,17 @@ A more specific section about some Machine Learning Fields.
 * [Unsupervised Translation of Programming Languages](http://www.iitp.ac.in/~ai-nlp-ml/course/dnlp/cep_iitpatna_mt_2020.pdf)
 * [Perplexity](https://machinelearningmastery.com/how-to-develop-a-word-level-neural-language-model-in-keras/) and [BLEU Score](https://machinelearningmastery.com/calculate-bleu-score-for-text-python/) metrics
 
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
+
 ## Recommendation System
 * [What Are Recommender Systems](https://builtin.com/data-science/recommender-systems)
 * [Matrix Factorization](https://medium.com/@paritosh_30025/recommendation-using-matrix-factorization-5223a8ee1f4) 
 * [How does Netflix recommend movies using Matrix Factorization](https://www.youtube.com/watch?v=ZspR5PZemcs&t=653s)
 * [Collaborative filtering](https://www.youtube.com/watch?v=h9gpufJFF-0)
 
-## Reinforcement Learning
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
+## Reinforcement Learning
 * [Reinforcement Learning Introduction](https://www.udacity.com/course/reinforcement-learning--ud600)
 * Videos:
   * [Getting started with OpenAI Gym](https://www.youtube.com/watch?v=8MC3y7ASoPs)
@@ -221,3 +232,5 @@ A more specific section about some Machine Learning Fields.
   * [SageMaker DeepRacer](https://aws.amazon.com/it/deepracer/)
   * [Deep Reinforcement Learning Models: Tips & Tricks for Writing Reward Functions](https://medium.com/@BonsaiAI/deep-reinforcement-learning-models-tips-tricks-for-writing-reward-functions-a84fe525e8e0)
   * [Proximal Policy Optimization](https://openai.com/blog/openai-baselines-ppo/) ```#optional```
+
+<a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
