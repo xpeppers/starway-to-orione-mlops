@@ -153,20 +153,14 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/): Binary Classification example using scikit-learn Random Forest classifier
 * **Algorithms**
   * **Supervised Learning**: when each training observation from the dataset has a corresponding label or output value associated with it.
-        
-       * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
-        
-       * Tree-based models:
-            
-          * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
-            
-          * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
-            
-           * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+    * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
+    * Tree-based models:
+      * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
+      * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
+      * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
   
   * **Unsupervised Learning**: when the training data has no labels.
-        
-        * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
+     * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
 
   * [SageMaker Built-in](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
         : built-in machine learning algorithms provided by SageMaker
