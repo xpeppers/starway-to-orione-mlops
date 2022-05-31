@@ -155,13 +155,13 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * **Supervised Learning**: when each training observation from the
         dataset has a corresponding label or output value associated
         with it.
-    * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
-    * Tree-based models:
-      * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
-    * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
-    * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+        * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
+        * Tree-based models:
+            * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
+            *  [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
+            *  [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
   * **Unsupervised Learning**: when the training data has no labels.
-    * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
+        * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
 
   * [SageMaker Built-in](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
         : built-in machine learning algorithms provided by SageMaker
@@ -170,14 +170,14 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 * **Evaluation Metrics**
   * Classification task: the value of the target variable to predict
         is discrete
-    * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score),[F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
-    * [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score), [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score)
+        * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score),[F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
+        * [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score), [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score)
   * Regression task: the value of the target variable to predict is continuous
-    * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/)
+        * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/)
   * Information Retrieval System (e.g. Recommendation Systems)
-    * [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank), [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9)
+        * [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank), [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9)
   * Images
-    * [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
+        * [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
 * [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/) ```#optional```
 * Extra:
   * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/) ```#optional```
