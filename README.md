@@ -52,14 +52,16 @@ Please feel free to fork and contribute, add materials, fix the existing ones an
 During all the plan read [The Phoenix Project](https://books.google.it/books/about/The_Phoenix_Project.html?id=qaRODgAAQBAJ).
 
 ## Programming
-* [Basic Python](https://www.learnpython.org/)
-* [Object-oriented Programming](https://realpython.com/python3-object-oriented-programming/)
 * [Python course by Analytics Vidhya](https://courses.analyticsvidhya.com/courses/introduction-to-data-science)
+* [Basic Python](https://www.learnpython.org/) - [Option 2: Basic Python](https://www.programiz.com/python-programming/)
+* [Object-oriented Programming](https://realpython.com/python3-object-oriented-programming/)
 * [Python Regular Expressions](https://developers.google.com/edu/python/regular-expressions)
 * [RE Cheat Sheet](https://www.debuggex.com/cheatsheet/regex/python)
-* [Git](https://learngitbranching.js.org/?locale=it_IT)
+* [Git](https://learngitbranching.js.org/?locale=it_IT) - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf):
+    open source distributed version control system.
 * [Shell Script](https://dagshub.com/blog/effective-linux-bash-data-scientists/)
-* Competitive: [Starway to Orione Dev](https://github.com/xpeppers/starway-to-orione)
+* Competitive: [Starway to Orione
+    Dev](https://github.com/xpeppers/starway-to-orione)
 
 <a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
@@ -76,19 +78,47 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 
 ## Toolboxes
 * Evaluating and Exploring data in Python
-  * [Jupyter](https://nbviewer.org/github/jrjohansson/scientific-python-lectures/tree/master/)
-  * [Anaconda](https://www.anaconda.com) ```#optional```
-  * [Zeppelin](https://zeppelin.apache.org/) ```#optional```
-  * [Notebook Alternative](https://pbpython.com/notebook-alternative.html) ```#optional```
+  * [Jupyter](https://nbviewer.org/github/jrjohansson/scientific-python-lectures/tree/master/):
+        Jupyter notebooks with examples of common scientific libraries
+        used in Data Science/ML projects (Numpy, Scipy, Matplotlib,...)
+  * [Anaconda](https://www.anaconda.com) ```#optional``` : open-source
+        distribution of Python packages, IDEs, built for data science.
+
+  * [Zeppelin](https://zeppelin.apache.org/) `#optional`: web-based
+        notebook that enables data-driven, interactive data analytics
+        and collaborative documents with SQL, Scala, Python, R and more.
+  * [Notebook
+        Alternative](https://pbpython.com/notebook-alternative.html)
+        `#optional`: running Jupyter Notebook on VS Code
 * Scientific libraries in Python
-  * [Numpy](https://cs231n.github.io/python-numpy-tutorial/)
-  * [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
-  * [Scipy](http://docs.scipy.org/doc/scipy/reference/tutorial/)
-  * [Scikit-learn](https://www.youtube.com/watch?v=0B5eIE_1vpU)
-  * [Matplotlib](https://www.youtube.com/watch?v=6rKe2IEIu8c)
-  * [Seaborn](https://www.kaggle.com/code/mukeshchoudhary/seaborn-crash-course-a-complete-course-on-seaborn/notebook)
-  * [Dask](https://ml.dask.org/) ```#optional```
-  * [Apache Spark](https://spark.apache.org/) ```#optional```
+  * [Numpy](https://cs231n.github.io/python-numpy-tutorial/):
+        scientific library in Python that provides high-performance
+        multi-dimensional array and tools for working with them.
+  * [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html):
+        open-source Python package useful for the exploration, cleaning
+        and processing of tabular data, called `DataFrame`.
+  * [Scipy](https://docs.scipy.org/doc/scipy/tutorial/index.html#user-guide):
+        collection of mathematical algorithms and convenience functions
+        built on `Numpy` (useful for Linear Algebra, Signal Processing,
+        Fourier Transforms, Statistics,...)
+  *  [Scikit-learn
+        video](https://www.youtube.com/watch?v=0B5eIE_1vpU) -
+        [Scikit-learn guide](https://scikit-learn.org/stable/): machine
+        learning library for Python programming language
+  * [Matplotlib video
+        tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c) -
+        [Matplotlib
+        guide](https://matplotlib.org/stable/tutorials/introductory/pyplot.html):
+        Python library for Data Visualization.
+  * [Seaborn](https://www.kaggle.com/code/mukeshchoudhary/seaborn-crash-course-a-complete-course-on-seaborn/notebook):
+        Python library for data visualization based on `Matplotlib`.
+  * [Dask-ML](https://ml.dask.org/) ```#optional```: ML library based on
+        `Dask` (library for parallel computing in Python).
+  * [Apache Spark](https://spark.apache.org/) ```#optional```: Fast and
+        general engine for large-scale data processing (in batches and
+        real-time straming). Spark provides an interface for programming
+        clusters (Distributed Computing) with implicit data parallelism
+        and fault tolerance.
   * [Spark & Hadoop Developer](https://gmucciolo.it/spark-and-hadoop-developer/) ```#optional```
   * [Statsmodels](https://www.statsmodels.org/stable/index.html) ```#optional```
 
@@ -96,25 +126,55 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 
 ## Machine Learning
 * [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
-* [Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/dp/B07XGF2G87/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+* [Book: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/dp/B07XGF2G87/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) ```#optional```
 * Blog & Articles:
   * [Workflow of a Machine Learning project](https://towardsdatascience.com/workflow-of-a-machine-learning-project-ec1dba419b94)
-  * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/)
-  * [Introduction to Data Visualization in Python](https://towardsdatascience.com/introduction-to-data-visualization-in-python-89a54c97fbed)
-  * [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/)
-* Algorithms
-  * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm), [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/)
-  * [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/), [Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
-  * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
-  * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761), [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
+      Gathering data $\rightarrow$ Data pre-processing $\rightarrow$
+        choose the model $\rightarrow$ train and test model
+        $\rightarrow$ Evaluation
+  * [Machine Learning for Everyone](https://vas3k.com/blog/machine_learning/):  High level
+        explanation of ML topics (e.g. Supervised, Unsupervised Learning
+        algorithms, Neural networks,... )
+  * [Introduction to Data Visualization in Python](https://towardsdatascience.com/introduction-to-data-visualization-in-python-89a54c97fbed): Overview of most common tools for data visualization
+        (Matplotlib, Seaborn,Plotly, Pandas Visualization)
+  * [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/): Binary Classification example using scikit-learn Random Forest classifier
+* **Algorithms**
+
+  * **Supervised Learning**: when each training observation from the
+        dataset has a corresponding label or output value associated
+        with it.
+
+    * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
+    * Tree-based models:
+      * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
+    * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
+    * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+
+  * **Unsupervised Learning**: when the training data has no labels.
+
+    * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
+
   * [SageMaker Built-in](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
+        : built-in machine learning algorithms provided by SageMaker
   * [SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)
-* Evaluation Metrics
-  * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score), [F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
-  * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/), [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score)
-  * [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score), [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank)
-  * [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9), [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
+
+* **Evaluation Metrics**
+
+  * Classification task: the value of the target variable to predict
+        is discrete
+
+    * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score),[F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
+    * [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score), [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score)
+
+  * Regression task: the value of the target variable to predict is continuous
+    * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/)
+
+  * Information Retrieval System (e.g. Recommendation Systems)
+    * [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank), [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9)
+
+  * Images
+    * [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
 * [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/) ```#optional```
 * Extra:
   * [Machine Learning, Data Science and Deep Learning with Python](https://www.udemy.com/course/data-science-and-machine-learning-with-python-hands-on/) ```#optional```
@@ -124,15 +184,42 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 
 ## Deep Learning
 * [Dive into Deep Learning](https://d2l.ai/)
+
 * [Practical Deep Learning for Coders](https://course.fast.ai/)
-* [Activation Functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6)
-* [Linear Layer](https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa)
-* [CNN (Convolutional Neural Networks)](https://cs231n.github.io/)
-* [RNN (Recurrent Neural Networks)](https://builtin.com/data-science/recurrent-neural-networks-and-lstm)
-* [Optimization](https://d2l.ai/chapter_optimization/)
-* [Loss Functions / Objective Functions](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23)
-* [Dropout](https://leonardoaraujosantos.gitbook.io/artificial-inteligence/machine_learning/deep_learning/dropout_layer)
-* [Batchnorm](https://www.baeldung.com/cs/batch-normalization-cnn)
+
+* [Activation Functions](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6) 
+   Functions that multiplie the output of a neuron in a Neural Network. Used to apply a desired transformation to the output.
+
+* [Linear
+    Layer](https://medium.com/datathings/linear-layers-explained-in-a-simple-way-2319a9c2d1aa)
+
+* [CNN (Convolutional Neural Networks)](https://cs231n.github.io/): NNs commonly applied to analyze images.
+
+* [RNN (Recurrent Neural Networks)](https://builtin.com/data-science/recurrent-neural-networks-and-lstm):
+    NNs commonly applied to analyze Sequential Data (e.g. text,
+    audio,...)
+
+* [Optimization](https://d2l.ai/chapter_optimization/): Optimization
+    algorithms continuously update model parameters by minimizing the
+    value of the loss function. There are different types of
+    optimization tools: Gradient descent, SGD, Adagrad, Adam, and so on.
+
+* [Loss Functions / Objective
+    Functions](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23):
+    Define an objective which the performance of the model is evaluated
+    against and the parameters learned by the model are determined by
+    minimizing the chosen loss function.
+
+* [Dropout](https://leonardoaraujosantos.gitbook.io/artificial-inteligence/machine_learning/deep_learning/dropout_layer):
+    Regularization method used to reduce the overfitting issue of large
+    neural nets. During training, some number of layer outputs (nodes)
+    are "dropped out". This method approximates training a large number
+    of neural networks with different architectures in parallel.
+
+* [Batchnorm](https://www.baeldung.com/cs/batch-normalization-cnn):
+    Regularization technique used to avoid overfitting and moreover
+    improves the learning speed of NN. It normalizes neuron's output
+    before applying the activation function.
 * [Learning Rate Scheduler](https://towardsdatascience.com/learning-rate-schedules-and-adaptive-learning-rate-methods-for-deep-learning-2c8f433990d1)
 * Frameworks:
   * [MXNet](https://mxnet.apache.org/)
@@ -143,30 +230,78 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 <a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Cloud Operation and DevOps
-* [Machine Learning Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html)
-* [Book: Data Science on AWS](https://www.amazon.it/dp/B0921MXC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-* AWS Machine Learning Stack
+* [Machine Learning
+    Lens](https://docs.aws.amazon.com/wellarchitected/latest/machine-learning-lens/machine-learning-lens.html):
+
+    Well-architected framework helps to learn operational and
+    architectural best practices for designing and operating ML workflow
+    in the cloud.
+
+* [Book: Data Science on
+    AWS](https://www.amazon.it/dp/B0921MXC9S/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+
+* **AWS Machine Learning Stack**
+
   * [ML Frameworks & Infrastructure](https://aws.amazon.com/it/machine-learning/infrastructure/)
+      AWS services, framework and resources to build, train, and deploy machine learning (ML) applications.
+
   * [Amazon SageMaker](https://docs.aws.amazon.com/sagemaker/latest/dg/whatis.html)
+    Fully managed ML service used to quickly and easily build and train ML models and then deploy them into a prediction-ready hosted environment at any scale.
+
   * [AI Services](https://aws.amazon.com/machine-learning/ai-services/?nc1=h_ls)
-* More AWS Services:
+    AWS provides several AI services; e.g. Amazon Rekognition that consists in pre-trained and customizable computer vision (CV) capabilities to extract information and insights from your images and videos...
+
+* **More AWS Services**:
+
   * [AWS Lambda](http://docs.aws.amazon.com/lambda/latest/dg/lambda-introduction.html)
+    Serverless computing service that lets you run code in highly available infrastructure without provisioning or managing servers.
+
   * [CI/CD CodePipeline](https://aws.amazon.com/codepipeline/getting-started/?nc=sn&loc=4)
+    Continuous delivery service you can use to model, visualize, and automate the steps required to release your software.
+
   * [Step Functions](https://docs.aws.amazon.com/step-functions/latest/dg/sample-train-model.html)
+    Serverless orchestration service that lets you combine AWS Lambda functions and other AWS services to build business-critical applications. With Step Functions you examine the state of each step in your workflow to make sure that your application runs in order and as expected.
+
   * [Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/whatisefs.html)
+    Serverless elastic file system for use with AWS Cloud services and on-premises resources.
+
   * [Fargate](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/AWS_Fargate.html)
+    Service that provisions serverless compute resources to run AWS ECS and EKS containers.
+
   * [AWS Batch](https://docs.aws.amazon.com/batch/latest/userguide/what-is-batch.html)
-* Utils:
-  * [Python for DevOps](https://www.amazon.it/dp/B082P97LDW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
-  * [Boto3](https://github.com/boto/boto3)
-  * [CloudFormation]()
+    Helps you to run batch computing workloads (way to access large amounts of compute resources) on the AWS Cloud across multiple Availability Zones within a Region.
+
+* **Utils**:
+
+  * [Book: Python for DevOps](https://www.amazon.it/dp/B082P97LDW/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1):
+    suggested *book* regarding how to use Python for everyday Linux systems administration tasks with today's most useful DevOps tools, including Docker, Kubernetes, and Terraform.
+
+  * [Boto3](https://github.com/boto/boto3) : AWS SDK for Python to create, configure, and manage AWS services, such as Amazon EC2 and Amazon S3.
+
+  * [CloudFormation](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html)
+    Easy way to create a collection of related AWS resources and provision them in an orderly and predictable fashion. Allows you to model your entire infrastructure in a text file (JSON or YAML) called a **template**.
+
   * [SAM](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
+    Framework for building serverless application. It provides shorthand syntax to express functions, APIs, databases, and event source mappings. You can define the application you want and model it using a JSON or YAML configuration template.
+
   * [Data Science SDK](https://docs.aws.amazon.com/it_it/step-functions/latest/dg/concepts-python-sdk.html)
-  * [Scala Data Quality](https://github.com/awslabs/deequ) | [Python Data Quality](https://github.com/awslabs/python-deequ)
-  * [Terraform](https://www.amazon.it/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906/) ```#optional```
+    With this library you can create workflows that process and publish machine learning models using SageMaker and Step Functions. Data Science SDK provides a Python API that can create and invoke Step Functions workflows.
+
+  * [Scala Data Quality](https://github.com/awslabs/deequ) \| [Python Data Quality](https://github.com/awslabs/python-deequ)
+    Python API for Deequ, a library built on top of Apache Spark for defining "unit tests for data", which measure data quality in large datasets. 
+
+  * [Book: Terraform](https://www.amazon.it/Terraform-Running-Writing-Infrastructure-Code/dp/1492046906/) ```#optional```
+    Hands-on book exploring Terraform, an Infrastructure as code tool for defining, launching, and managing infrastructure as code (IaC) across a variety of cloud and virtualization platforms.
+
   * [Troposhpere](https://github.com/cloudtools/troposphere) ```#optional```
+    Library that makes easier the creation of the AWS CloudFormation
+        JSON by writing Python code to describe the AWS resources.
+
   * [Goformation](https://github.com/awslabs/goformation) ```#optional```
-  * [Aws Data Wrangle](https://github.com/awslabs/aws-data-wrangler) ```#optional```
+    Go library for working with AWS CloudFormation / AWS Serverless Application Model (SAM) templates.
+
+  * [Aws Data Wrangle](https://github.com/awslabs/aws-data-wrangler) ```#optional``` :
+    Extends the power of Pandas library to AWS connecting DataFrames and AWS data related services.
 * Training and Certification
   * [AWS Technical Essentials](https://aws.amazon.com/it/training/course-descriptions/essentials/)
   * [Machine Learning on AWS](https://aws.amazon.com/it/training/learning-paths/machine-learning/data-scientist/)
