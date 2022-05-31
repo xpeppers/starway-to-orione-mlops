@@ -81,45 +81,57 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [Jupyter](https://nbviewer.org/github/jrjohansson/scientific-python-lectures/tree/master/):
         Jupyter notebooks with examples of common scientific libraries
         used in Data Science/ML projects (Numpy, Scipy, Matplotlib,...)
+        
   * [Anaconda](https://www.anaconda.com) ```#optional``` : open-source
         distribution of Python packages, IDEs, built for data science.
 
   * [Zeppelin](https://zeppelin.apache.org/) `#optional`: web-based
         notebook that enables data-driven, interactive data analytics
         and collaborative documents with SQL, Scala, Python, R and more.
+        
   * [Notebook
         Alternative](https://pbpython.com/notebook-alternative.html)
         `#optional`: running Jupyter Notebook on VS Code
+        
 * Scientific libraries in Python
   * [Numpy](https://cs231n.github.io/python-numpy-tutorial/):
         scientific library in Python that provides high-performance
         multi-dimensional array and tools for working with them.
+        
   * [Pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html):
         open-source Python package useful for the exploration, cleaning
         and processing of tabular data, called `DataFrame`.
+        
   * [Scipy](https://docs.scipy.org/doc/scipy/tutorial/index.html#user-guide):
         collection of mathematical algorithms and convenience functions
         built on `Numpy` (useful for Linear Algebra, Signal Processing,
         Fourier Transforms, Statistics,...)
+        
   *  [Scikit-learn
         video](https://www.youtube.com/watch?v=0B5eIE_1vpU) -
         [Scikit-learn guide](https://scikit-learn.org/stable/): machine
         learning library for Python programming language
+        
   * [Matplotlib video
         tutorial](https://www.youtube.com/watch?v=6rKe2IEIu8c) -
         [Matplotlib
         guide](https://matplotlib.org/stable/tutorials/introductory/pyplot.html):
         Python library for Data Visualization.
+        
   * [Seaborn](https://www.kaggle.com/code/mukeshchoudhary/seaborn-crash-course-a-complete-course-on-seaborn/notebook):
         Python library for data visualization based on `Matplotlib`.
+        
   * [Dask-ML](https://ml.dask.org/) ```#optional```: ML library based on
         `Dask` (library for parallel computing in Python).
+        
   * [Apache Spark](https://spark.apache.org/) ```#optional```: Fast and
         general engine for large-scale data processing (in batches and
         real-time straming). Spark provides an interface for programming
         clusters (Distributed Computing) with implicit data parallelism
         and fault tolerance.
+        
   * [Spark & Hadoop Developer](https://gmucciolo.it/spark-and-hadoop-developer/) ```#optional```
+  
   * [Statsmodels](https://www.statsmodels.org/stable/index.html) ```#optional```
 
 <a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
@@ -140,19 +152,15 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
         (Matplotlib, Seaborn,Plotly, Pandas Visualization)
   * [Machine learning in Python with Scikit-learn](https://www.dglencross.com/machine%20learning/machine-learning/): Binary Classification example using scikit-learn Random Forest classifier
 * **Algorithms**
-
   * **Supervised Learning**: when each training observation from the
         dataset has a corresponding label or output value associated
         with it.
-
     * [Naive Bayes](https://jakevdp.github.io/PythonDataScienceHandbook/05.05-naive-bayes.html), [Support Vector Machine](https://datascience.foundation/datatalk/basic-overview-of-svm-algorithm)
     * Tree-based models:
       * [Random Forest](https://www.section.io/engineering-education/introduction-to-random-forest-in-machine-learning/), [AdaBoost](https://www.mygreatlearning.com/blog/adaboost-algorithm/),[Gradient Boosting](https://blog.mlreview.com/gradient-boosting-from-scratch-1e317ae4587d), [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/), [CatBoost](https://dataaspirant.com/catboost-algorithm/)
     * [Bagging Classifier](https://vitalflux.com/bagging-classifier-python-code-example/), [Voting Classifier](https://towardsdatascience.com/how-voting-classifiers-work-f1c8e41d30ff), [Stacking Classifier](https://bush-dev.com/introduction-to-stacking-classifier/)
     * [K-NN](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
-
   * **Unsupervised Learning**: when the training data has no labels.
-
     * [K-Means Clustering](https://www.kdnuggets.com/2019/05/guide-k-means-clustering-algorithm.html)
 
   * [SageMaker Built-in](https://docs.aws.amazon.com/sagemaker/latest/dg/algos.html)
@@ -160,19 +168,14 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
   * [SageMaker Examples](https://github.com/aws/amazon-sagemaker-examples)
 
 * **Evaluation Metrics**
-
   * Classification task: the value of the target variable to predict
         is discrete
-
     * [Confusion Matrix](https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/), [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html), [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score), [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score),[F Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score)
     * [ROC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_curve.html), [ROC AUC](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html#sklearn.metrics.roc_auc_score), [Hamming Loss](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.hamming_loss.html#sklearn.metrics.hamming_loss), [Top K Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.top_k_accuracy_score.html#sklearn.metrics.top_k_accuracy_score)
-
   * Regression task: the value of the target variable to predict is continuous
     * [MAE](https://www.statisticshowto.com/absolute-error/), [MSE](https://www.freecodecamp.org/news/machine-learning-mean-squared-error-regression-line-c7dde9a26b93/)
-
   * Information Retrieval System (e.g. Recommendation Systems)
     * [MRR](https://it.wikipedia.org/wiki/Mean_reciprocal_rank), [DCG](https://en.wikipedia.org/wiki/Discounted_cumulative_gain), [NDCG](https://towardsdatascience.com/normalized-discounted-cumulative-gain-37e6f75090e9)
-
   * Images
     * [PSNR](https://towardsdatascience.com/deep-learning-image-enhancement-insights-on-loss-function-engineering-f57ccbb585d7), [SSIM](https://towardsdatascience.com/image-classification-using-ssim-34e549ec6e12), [IoU](https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
 * [Homeworks](https://nbviewer.org/github/cs109/2014/tree/master/homework/) ```#optional```
