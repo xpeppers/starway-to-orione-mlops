@@ -1,4 +1,4 @@
-# Starway to Orione DoAI
+# Starway to Orione CUDA (Cloud Utilities and Data Analytics) - TEAM
 
 DoAI is the **D**evelopment **O**peration and **A**rtificial **I**ntelligence
 
