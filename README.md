@@ -137,6 +137,7 @@ During all the plan read [The Phoenix Project](https://books.google.it/books/abo
 <a href="#table-of-contents">🠥🠥 Back to Table of Contents 🠥🠥</a>
 
 ## Machine Learning
+* [Elements of AI](https://www.elementsofai.com/): An Introduction to AI with no complicated math or programming required.
 * [Google Crash Course](https://developers.google.com/machine-learning/crash-course)
 * [Book: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/dp/B07XGF2G87/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/) ```#optional```
